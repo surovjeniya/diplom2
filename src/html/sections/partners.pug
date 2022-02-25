@@ -1,0 +1,11 @@
+include ../components/link
+include ../components/button
+section.partners 
+    .partners__content.container 
+        p.partners__title Partners
+        p.partners__subtitle Most calendars are designed for teams. Slate is designed for freelancers 
+        .partners__items
+            each item in partners
+                +link(item.url,item.label)
+        +button('Try For Free','blue')
+        
