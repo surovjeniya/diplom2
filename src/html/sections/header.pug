@@ -1,0 +1,14 @@
+include ../components/button
+include ../components/input
+header
+    .header.container 
+        a(href="#").header__logo
+            include ../../img/logo.svg
+        nav.header__nav
+            ul.header__navigation
+                each link in headerLinks
+                    li
+                        a(href= link.url)= link.label
+        .header__subscribe
+            +input('email','Your Email','white')
+            +button('Subsribe','white')

@@ -1,0 +1,19 @@
+.regular__input {
+    border:none;
+    border-radius: 35px;
+    padding: 15px 30px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color:#18171D;
+    &:focus {
+        outline: none;
+    }
+}
+
+.regular__input.gray {
+    background: $c-gray;
+}
+
+.regular__input.white {
+    background: $c-white;
+}

@@ -1,0 +1,16 @@
+.regular__btn {
+    border:none;
+    border-radius:35px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.regular__btn.white {
+    background: $c-white;
+    color:$c-primary;
+}
+.regular__btn.blue {
+    background: $c-primary;
+    color:$c-white;
+}
