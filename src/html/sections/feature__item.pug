@@ -1,0 +1,7 @@
+mixin feature__item(img,title,description)
+    .features__item.item 
+        .item__top 
+            img(src= `./img/${img}.svg`)
+            h3.item__title= title
+        .item__main 
+            p.item__description= description
