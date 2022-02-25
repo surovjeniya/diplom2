@@ -46,5 +46,61 @@
             "url":"#",
             "label":"../img/company_logo6.svg"
         }
+    ],
+    "testimonials":[
+        {
+            "img":"./img/person1.png",
+            "description": "Slate helps you see how many more days you need to work to reach your financial goal forthe month and year.",
+            "rating": [
+                "star","star","star"
+            ],
+            "name":"Regina Miles",
+            "job": "Designer"
+        },
+        {
+            "img":"./img/person2.png",
+            "description": "Slate helps you see how many more days you need to work to reach your financial goal forthe month and year.",
+            "rating": [
+                "star","star","star","star"
+            ],
+            "name":"Regina Miles",
+            "job": "Designer"
+        },
+        {
+            "img":"./img/person3.png",
+            "description": "Slate helps you see how many more days you need to work to reach your financial goal forthe month and year.",
+            "rating": [
+                "star","star"
+            ],
+            "name":"Regina Miles",
+            "job": "Designer"
+        },
+        {
+            "img":"./img/person4.png",
+            "description": "Slate helps you see how many more days you need to work to reach your financial goal forthe month and year.",
+            "rating": [
+                "star"
+            ],
+            "name":"Regina Miles",
+            "job": "Designer"
+        },
+        {
+            "img":"./img/person5.png",
+            "description": "Slate helps you see how many more days you need to work to reach your financial goal forthe month and year.",
+            "rating": [
+                "star","star","star"
+            ],
+            "name":"Regina Miles",
+            "job": "Designer"
+        },
+        {
+            "img":"./img/person6.png",
+            "description": "Slate helps you see how many more days you need to work to reach your financial goal forthe month and year.",
+            "rating": [
+                "star","star","star","star"
+            ],
+            "name":"Regina Miles",
+            "job": "Designer"
+        }
     ]
 }

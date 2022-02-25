@@ -1,0 +1,33 @@
+.testimonial {
+    max-width: 335px;
+    padding: 4rem 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    background: $c-white;
+    text-align: center;
+
+    &__description {
+        font-weight: 400;
+        font-size: 1.8rem;
+        line-height: 2.7rem;
+        margin-top: 4rem;
+    }
+
+    &__rating {
+        margin-top: 4rem;
+    }
+    &__name {
+        font-weight: 400;
+        font-size: 1.5rem;
+        margin-top: 3rem;
+    }
+    &__job {
+        font-weight: 700;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+}
