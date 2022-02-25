@@ -102,5 +102,20 @@
             "name":"Regina Miles",
             "job": "Designer"
         }
+    ],
+    "contactLinks":[
+        {
+            "url":"#",
+            "label":"./img/twitter.svg"
+        },
+        {
+            "url":"#",
+            "label":"./img/linkdin.svg"
+        },
+        {
+            "url":"#",
+            "label":"./img/facebook.svg"
+        }
     ]
+   
 }
