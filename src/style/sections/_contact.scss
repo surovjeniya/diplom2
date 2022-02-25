@@ -1,0 +1,88 @@
+.contact {
+    padding:21rem 0 10rem 0;
+    .container {
+        max-width: 891px;
+    }
+    &__content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color:$c-white;
+        text-align: center;
+    }
+    &__title {
+        font-weight: 400;
+        font-size: 4.6rem;
+        margin-bottom: 1.7rem;
+    }
+    &__subtitle {
+        max-width: 300px;
+        font-weight: 700;
+        font-size: 1.6rem;
+        line-height: 2rem;
+        margin-bottom: 6rem;
+    }
+    &__links {
+        display: flex;
+        align-items: center;
+        margin-bottom: 6rem;
+        .link {
+            margin: 0 1.25rem;
+        }
+    }
+    &__map {
+        margin-bottom: 5rem;
+        width: 100%;
+    }
+    &__contacts {
+        display: flex;
+        align-items: center;
+        margin-bottom: 5rem;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+        }
+        .contact__item  {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            max-width: 228px;
+            text-align: center;
+            margin: 0 2rem;
+            img {
+                width: 40px;
+               margin-bottom: 2rem;
+            }
+        }
+    }
+    &__form {
+        background: $c-white;
+        box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+        border-radius: 20px;
+        padding: 5rem;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+            h3 {
+                color:$c-darkBackground;
+                margin-bottom: 4.5rem;
+                font-weight: 700;
+                font-size: 2.2rem;
+            }
+            input {
+                margin-bottom: 4.5rem;
+            }
+            textarea {
+                resize: none;
+                background: $c-gray;
+                border:none;
+                padding: 23px;
+                font-size: 1.5rem;
+                height: 150px;
+                margin-bottom: 7rem;
+            }
+            .regular__btn {
+                width: 145px;
+            }
+    }
+    
+}
