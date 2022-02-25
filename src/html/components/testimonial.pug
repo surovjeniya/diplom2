@@ -1,0 +1,10 @@
+mixin testimonial(img,description,rating,name,job)
+    .testimonial
+        img.testimonial__img(src= img)
+        p.testimonial__description= description
+        .testimonial__rating
+            each star in rating 
+                include ../../img/star.svg
+            include ../../img/empty_star.svg
+        h3.testimonial__name= name 
+        h3.testimonial__job= job

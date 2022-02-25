@@ -1,0 +1,10 @@
+include ../components/testimonial
+include ../components/button
+section.testimonials 
+    .testimonials__content.container
+        h2.testimonials__title Testimonials
+        .testimonials__items
+            each item in testimonials
+                +testimonial(item.img,item.description,item.rating,item.name,item.job)
+        .testimonials__btn 
+            +button('More Testimonials','blue')
