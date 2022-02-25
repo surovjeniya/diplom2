@@ -1,0 +1,36 @@
+include ./footer__links
+include ../components/link
+include ../components/input
+include ../components/button
+
+
+section.footer 
+    .footer__content.container 
+        .footer__left
+            .footer__item
+                h3.footer__title Pages 
+                ul.footer__links
+                    each item in footerPages
+                        +footerLinks(item.url,item.label)
+            .footer__item 
+                h3.footer__title Tomothy  
+                ul.footer__links
+                    each item in footerWorkers
+                        +footerLinks(item.url,item.label)
+            .footer__item 
+                h3.footer__title Jane Black 
+                ul.footer__links
+                    each item in footerAutors
+                        +footerLinks(item.url,item.label)
+        .footer__subscribe
+            .footer__socials 
+                +link('#','./img/twitter.svg')
+                +link('#','./img/facebook.svg')
+                +link('#','./img/linkdin.svg')
+            h2.footer__subcribe-title Subscribe to our Newsletter
+            p.footer__subtitle Available exclusivery on Figmaland
+            form.footer__form(action="")
+                +input('email','Your Email','white')
+                +button('Subsribe','blue')
+
+
