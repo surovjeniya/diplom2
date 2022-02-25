@@ -1,4 +1,5 @@
 include ../components/link
+include ../components/button
 section.partners 
     .partners__content.container 
         p.partners__title Partners
@@ -6,3 +7,5 @@ section.partners
         .partners__items
             each item in partners
                 +link(item.url,item.label)
+        +button('Try For Free','blue')
+        
