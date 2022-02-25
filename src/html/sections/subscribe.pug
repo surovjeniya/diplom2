@@ -1,0 +1,14 @@
+include ../components/button
+include ../components/input
+section.subscribe 
+    .subscribe__content.container 
+        img(src='./img/mailbox.png').subscribe__img
+        .subscribe__main
+            p.subscribe__subtitle At your fingertips
+            h2.subscribe__title Lightning fast prototyping
+            p.subscribe__info Subscribe to our Newsletter
+            p.subscribe__desciption Available exclusivery on Figmaland
+            form(action="").subscribe__form
+                +input('email','Your Email','white')
+                +button('Subscribe','blue') 
+                 
