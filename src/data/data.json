@@ -20,5 +20,31 @@
             "url":"#",
             "label":"Contact"
         }
+    ],
+    "partners":[
+        {
+            "url":"#",
+            "label":"../img/company_logo1.svg"
+        },
+        {
+            "url":"#",
+            "label":"../img/company_logo2.svg"
+        },
+        {
+            "url":"#",
+            "label":"../img/company_logo3.svg"
+        },
+        {
+            "url":"#",
+            "label":"../img/company_logo4.svg"
+        },
+        {
+            "url":"#",
+            "label":"../img/company_logo5.svg"
+        },
+        {
+            "url":"#",
+            "label":"../img/company_logo6.svg"
+        }
     ]
 }
