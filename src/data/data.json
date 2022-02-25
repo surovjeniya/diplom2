@@ -116,6 +116,71 @@
             "url":"#",
             "label":"./img/facebook.svg"
         }
+    ],
+    "footerPages":[
+        {
+            "url":"#",
+            "label":"Home"
+        },
+        {
+            "url":"#",
+            "label":"Product"
+        },
+        {
+            "url":"#",
+            "label":"Pricing"
+        },
+        {
+            "url":"#",
+            "label":"About"
+        },
+        {
+            "url":"#",
+            "label":"Contact"
+        }
+    ],
+    "footerWorkers":[
+        {
+            "url":"#",
+            "label":"Eleanor Edwards"
+        },
+        {
+            "url":"#",
+            "label":"Ted Robertson"
+        },
+        {
+            "url":"#",
+            "label":"Annette Russell"
+        },
+        {
+            "url":"#",
+            "label":"Jennie Mckinney"
+        },
+        {
+            "url":"#",
+            "label":"Gloria Richards"
+        }
+    ],
+    "footerAutors":[
+        {
+            "url":"#",
+            "label":"Philip Jones"
+        },
+        {
+            "url":"#",
+            "label":"Product"
+        },
+        {
+            "url":"#",
+            "label":"Colleen Russell"
+        },
+        {
+            "url":"#",
+            "label":"Marvin Hawkins"
+        },
+        {
+            "url":"#",
+            "label":"Bruce Simmmons"
+        }
     ]
-   
 }
