@@ -5,6 +5,8 @@
     font-size: 16px;
     padding: 15px 30px;
     cursor: pointer;
+    display: inline-block;
+    text-align: center;
 }
 .regular__btn.white {
     background: $c-white;
