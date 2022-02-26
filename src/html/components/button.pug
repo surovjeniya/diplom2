@@ -1,2 +1,2 @@
-mixin button(label,color)
-    button.regular__btn(class= color)= label
+mixin button(label,color,url= "#")
+    a(href= url).regular__btn(class= color)= label

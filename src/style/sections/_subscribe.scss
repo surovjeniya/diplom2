@@ -5,6 +5,20 @@
         align-items: center;
         flex-wrap: wrap;
         color:$c-white;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+            .subscribe__subtitle,.subscribe__title {
+                display: none;
+            }
+        }
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width:480px) {
+            margin-top: 10rem;
+            align-items: center;
+        }
     }
     &__subtitle {
         font-weight: 700;
@@ -30,5 +44,16 @@
     .regular__input {
         margin-right: 1rem;
         width: 273px;
+        @media screen and(max-width:480px) {
+            margin-right: 0;
+            margin-bottom: 2rem;
+        }
+    }
+    &__form {
+        display: flex;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+            width: 100%;
+        }
     }
 }

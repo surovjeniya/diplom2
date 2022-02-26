@@ -37,9 +37,15 @@
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+        }
     }
     &__items  {
         max-width: 255px;
+        @media screen and (max-width:480px) {
+            margin-top: 10rem;
+        }
     }
     .item{
         display: flex;
