@@ -1,7 +1,7 @@
 header {
     background: $c-primary;
     .container {
-
+        position: relative;
     }
     #header__burger {
         display: none;
@@ -19,6 +19,8 @@ header {
         align-items: center;
         flex-wrap: wrap;
         padding-top: 46px;
+        position: absolute;
+        width: 95%;
         @media  screen and (max-width:480px) {
             flex-wrap: nowrap
         }

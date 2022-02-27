@@ -5,6 +5,24 @@
         align-items: center;
         flex-wrap: wrap;
         color:$c-white;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    &__main {
+        display: flex;
+        flex-direction: column;
+        @media screen and (max-width:480px) {
+           align-items: center;
+        }
+    }
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+        @media screen and (max-width:480px) {
+            flex-direction: column;
+        }
     }
     &__subtitle {
         font-weight: 700;
@@ -30,5 +48,9 @@
     .regular__input {
         margin-right: 1rem;
         width: 273px;
+        @media screen and (max-width:480px) {
+            margin-right: 0;
+            margin-bottom: 1rem;
+        }
     }
 }
