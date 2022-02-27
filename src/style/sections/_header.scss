@@ -1,12 +1,16 @@
 header {
     background: $c-primary;
+    .container {
+        position: relative;
+    }
     .header {
         display: flex;
         justify-content: space-between;
         align-items: center;
         flex-wrap: wrap;
         padding-top: 5rem;
-
+        position: absolute;
+        width: 95%;
         #header__burger {
             display: none;
             &:checked ~ .header__nav {
